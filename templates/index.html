@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<title>Home</title>
+{% endblock %}
+
+{% block body %}
+<br>
+<h1>Home Page</h1>
+<br>
+<main role="main">
+    <div class="p-5 mb-4 bg-light rounded-3">
+      <div class="container-fluid py-5">
+         <div class="h-100 p-5 text-bg-dark rounded-3">
+            <h1 class="display-5 fw-bold">Welcome</h1>
+            <p class="col-md-8 fs-4">Let's get started</p>
+             <p>
+                 <a class="btn btn-primary btn-lg" href='/posts' type="button">Go to Posts >></a>
+             </p>
+         </div>
+      </div>
+    </div>
+</main>
+{% endblock %}
