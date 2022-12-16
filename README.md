@@ -1,6 +1,6 @@
 # Flask-Demo
 
 
-### Basic web app build using Flask where Users can write and delete there posts.
+### Basic web app build using Flask where Users can write,edit and delete there posts.
 
 ### Link - https://flask-posts.onrender.com/
